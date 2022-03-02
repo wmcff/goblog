@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/model"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/mysql"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/view"
+	"github.com/wmcff/goblog/internal/pkg/model"
+	"github.com/wmcff/goblog/internal/pkg/mysql"
+	"github.com/wmcff/goblog/internal/pkg/view"
 )
 
 func CategoryList(w http.ResponseWriter, r *http.Request) {

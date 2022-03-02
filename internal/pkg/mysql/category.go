@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/model"
+	"github.com/wmcff/goblog/internal/pkg/model"
 )
 
 func GetCategories() (categories []model.Category, err error) {

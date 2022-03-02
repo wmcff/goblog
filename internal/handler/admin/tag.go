@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/mysql"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/view"
+	"github.com/wmcff/goblog/internal/pkg/mysql"
+	"github.com/wmcff/goblog/internal/pkg/view"
 )
 
 func TagList(w http.ResponseWriter, r *http.Request) {

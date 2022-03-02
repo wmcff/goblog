@@ -1,11 +1,11 @@
 package conf
 
 import (
-	"github.com/MCZHNTTHXQ/goblog/pkg/log"
-	"github.com/MCZHNTTHXQ/goblog/pkg/redis"
-	"github.com/MCZHNTTHXQ/goblog/pkg/storage/elasticsearch"
-	"github.com/MCZHNTTHXQ/goblog/pkg/storage/mysql"
-	"github.com/MCZHNTTHXQ/goblog/pkg/storage/orm"
+	"github.com/wmcff/goblog/pkg/log"
+	"github.com/wmcff/goblog/pkg/redis"
+	"github.com/wmcff/goblog/pkg/storage/elasticsearch"
+	"github.com/wmcff/goblog/pkg/storage/mysql"
+	"github.com/wmcff/goblog/pkg/storage/orm"
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"

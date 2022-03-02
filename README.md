@@ -76,7 +76,7 @@
 
 ```
 # 下载安装，可以不用是 GOPATH
-git clone https://github.com/MCZHNTTHXQ/goblog.git
+git clone https://github.com/wmcff/goblog.git
 
 # 进入到下载目录
 cd goblog

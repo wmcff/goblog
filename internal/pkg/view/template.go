@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/MCZHNTTHXQ/goblog/conf"
+	"github.com/wmcff/goblog/conf"
 )
 
 var funcMap = template.FuncMap{

@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/MCZHNTTHXQ/goblog/conf"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/es"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/mysql"
-	"github.com/MCZHNTTHXQ/goblog/internal/routers"
-	logger "github.com/MCZHNTTHXQ/goblog/pkg/log"
-	"github.com/MCZHNTTHXQ/goblog/pkg/redis"
+	"github.com/wmcff/goblog/conf"
+	"github.com/wmcff/goblog/internal/pkg/es"
+	"github.com/wmcff/goblog/internal/pkg/mysql"
+	"github.com/wmcff/goblog/internal/routers"
+	logger "github.com/wmcff/goblog/pkg/log"
+	"github.com/wmcff/goblog/pkg/redis"
 
 	"github.com/spf13/pflag"
 )

@@ -3,9 +3,9 @@ package routers
 import (
 	"net/http"
 
-	"github.com/MCZHNTTHXQ/goblog/internal/handler/admin"
-	"github.com/MCZHNTTHXQ/goblog/internal/handler/front"
-	"github.com/MCZHNTTHXQ/goblog/internal/routers/middleware"
+	"github.com/wmcff/goblog/internal/handler/admin"
+	"github.com/wmcff/goblog/internal/handler/front"
+	"github.com/wmcff/goblog/internal/routers/middleware"
 )
 
 func faviconHandler(w http.ResponseWriter, r *http.Request) {

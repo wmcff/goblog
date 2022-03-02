@@ -3,9 +3,9 @@ package admin
 import (
 	"net/http"
 
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/model"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/mysql"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/view"
+	"github.com/wmcff/goblog/internal/pkg/model"
+	"github.com/wmcff/goblog/internal/pkg/mysql"
+	"github.com/wmcff/goblog/internal/pkg/view"
 
 	"golang.org/x/crypto/bcrypt"
 )

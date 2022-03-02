@@ -1,8 +1,8 @@
 package mysql
 
 import (
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/model"
-	logger "github.com/MCZHNTTHXQ/goblog/pkg/log"
+	"github.com/wmcff/goblog/internal/pkg/model"
+	logger "github.com/wmcff/goblog/pkg/log"
 	"go.uber.org/zap"
 )
 

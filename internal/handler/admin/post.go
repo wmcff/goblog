@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/MCZHNTTHXQ/goblog/conf"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/es"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/model"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/mysql"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/utils"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/view"
+	"github.com/wmcff/goblog/conf"
+	"github.com/wmcff/goblog/internal/pkg/es"
+	"github.com/wmcff/goblog/internal/pkg/model"
+	"github.com/wmcff/goblog/internal/pkg/mysql"
+	"github.com/wmcff/goblog/internal/pkg/utils"
+	"github.com/wmcff/goblog/internal/pkg/view"
 )
 
 func PostList(w http.ResponseWriter, r *http.Request) {

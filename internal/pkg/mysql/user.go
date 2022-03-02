@@ -1,6 +1,6 @@
 package mysql
 
-import "github.com/MCZHNTTHXQ/goblog/internal/pkg/model"
+import "github.com/wmcff/goblog/internal/pkg/model"
 
 func GetUser(email string) (user model.User) {
 	row := db.QueryRow("select email,password from user where email=?", email)

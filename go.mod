@@ -1,4 +1,4 @@
-module github.com/MCZHNTTHXQ/goblog
+module github.com/wmcff/goblog
 
 go 1.17
 

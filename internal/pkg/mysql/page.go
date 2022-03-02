@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/model"
+	"github.com/wmcff/goblog/internal/pkg/model"
 )
 
 type PageParams struct {

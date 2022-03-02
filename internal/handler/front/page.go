@@ -3,8 +3,8 @@ package front
 import (
 	"net/http"
 
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/mysql"
-	"github.com/MCZHNTTHXQ/goblog/internal/pkg/view"
+	"github.com/wmcff/goblog/internal/pkg/mysql"
+	"github.com/wmcff/goblog/internal/pkg/view"
 )
 
 func Page(w http.ResponseWriter, r *http.Request) {
